@@ -10,7 +10,8 @@ def test_factorial():
 
 def test_hatred_s():
     """test"""
-    assert src.functions.hatred_s('s is the worst letter') == ' hate!  i hate!  the wor hate! t letter'
+    assert (src.functions.hatred_s('s is the worst letter')
+            == ' hate!  i hate!  the wor hate! t letter')
 
 
 def test_destined_tea():
